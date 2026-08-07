@@ -1,0 +1,107 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 1400 >>
+stream
+BT
+/F1 20 Tf
+50 740 Td
+(ADITHYAN PAVITHRAN) Tj
+/F1 10 Tf
+0 -18 Td
+(Phone: +91 7902482052 | Email: adithyanpavithran1@gmail.com) Tj
+0 -14 Td
+(GitHub: github.com/Adithyanpavithran | LinkedIn: linkedin.com/in/adithyan-pavithran-b80424352) Tj
+0 -24 Td
+/F1 12 Tf
+(SUMMARY) Tj
+/F1 9 Tf
+0 -14 Td
+(Enthusiastic and self-driven Flutter Developer with hands-on experience in building cross-platform mobile apps) Tj
+0 -12 Td
+(using Flutter and Firebase. Passionate about learning modern tech stacks, IoT, and responsive design.) Tj
+0 -22 Td
+/F1 12 Tf
+(EDUCATION) Tj
+/F1 10 Tf
+0 -14 Td
+(B.Tech in Computer Science and Engineering - LBS COLLEGE OF ENGINEERING KASARAGOD, KERALA) Tj
+0 -12 Td
+(8.23 CGPA [First Class with Distinction] | Expected Graduation: April 2026) Tj
+0 -14 Td
+(Higher Secondary Education - GOVT. SANSKRIT HSS KOZHIKODE, KERALA | Grade: 98.01% [2019 - 2021]) Tj
+0 -22 Td
+/F1 12 Tf
+(PROJECTS) Tj
+/F1 10 Tf
+0 -14 Td
+(1. Indoor Navigation System for Blind People [Final Year Project]) Tj
+0 -12 Td
+(   - Flutter app providing voice-guided indoor navigation using ESP32 & BLE beacons for real-time positioning.) Tj
+0 -12 Td
+(   - Wireless location data transmission between microcontrollers and mobile app for GPS-denied safety.) Tj
+0 -14 Td
+(2. Event Finder App [Gather UP] - Flutter + Firebase) Tj
+0 -12 Td
+(   - Real-time event tracking, Firestore sync, RSVP management, and instant push notifications.) Tj
+0 -22 Td
+(3. Period Tracker App with Integrated Chatbot - Flutter + Firebase) Tj
+0 -22 Td
+/F1 12 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+/F1 10 Tf
+0 -14 Td
+(Flutter Developer Intern - MaiTexa Technologies [June 2025]) Tj
+0 -22 Td
+/F1 12 Tf
+(TECHNICAL SKILLS) Tj
+/F1 9 Tf
+0 -14 Td
+(Languages: Python, C, Dart, SQL | Mobile: Flutter, Firebase | Database: MySQL, Cloud Firestore) Tj
+0 -12 Td
+(Hardware & IoT: ESP32 Microcontrollers, Bluetooth Low Energy [BLE] | Tools: GitHub, VS Code, Figma, Canva) Tj
+0 -22 Td
+/F1 12 Tf
+(ACHIEVEMENTS) Tj
+/F1 9 Tf
+0 -14 Td
+(- Represented College Cricket Team for 4 consecutive years) Tj
+0 -12 Td
+(- Winner of the F-Zone Intercollegiate Cricket Championship) Tj
+0 -22 Td
+/F1 12 Tf
+(CERTIFICATIONS & LANGUAGES) Tj
+/F1 9 Tf
+0 -14 Td
+(- HP LIFE Online Course: AI for Beginners [June 2025]) Tj
+0 -12 Td
+(- Cybersecurity Analyst Job Simulation by TATA [June 2025]) Tj
+0 -12 Td
+(Languages: English [Fluent], Hindi, Malayalam [Mother Tongue], Kannada, Tamil) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000300 00000 n 
+0000000230 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1750
+%%EOF

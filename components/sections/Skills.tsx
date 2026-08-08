@@ -73,6 +73,24 @@ const GithubLogo = () => (
   </svg>
 );
 
+const LinuxLogo = () => (
+  <svg className="w-5 h-5 text-[#FCC624]" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2c-3.3 0-6 2.7-6 6 0 1.8.8 3.4 2.1 4.5C5.9 14.1 4.5 16.9 4.5 20h15c0-3.1-1.4-5.9-3.6-7.5C17.2 11.4 18 9.8 18 8c0-3.3-2.7-6-6-6zm-2 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm4 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-2 7c2 0 3.5 1.5 3.5 3.5H8.5c0-2 1.5-3.5 3.5-3.5z"/>
+  </svg>
+);
+
+const FigmaLogo = () => (
+  <svg className="w-5 h-5 text-[#F24E1E]" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M8 24c2.21 0 4-1.79 4-4v-4H8c-2.21 0-4 1.79-4 4s1.79 4 4 4zm0-12c-2.21 0-4 1.79-4 4s1.79 4 4 4h4v-8H8zm0-12C5.79 0 4 1.79 4 4s1.79 4 4 4h4V0H8zm8 0h-4v8h4c2.21 0 4-1.79 4-4s-1.79-4-4-4zm0 8h-4v8h4c2.21 0 4-1.79 4-4s-1.79-4-4-4z"/>
+  </svg>
+);
+
+const CanvaLogo = () => (
+  <svg className="w-5 h-5 text-[#00C4CC]" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm-1.8 17.5c-2.8 0-4.5-1.9-4.5-4.6 0-3.3 2.5-6.2 5.8-6.2 1.8 0 3.1.8 3.7 2.1l-1.6 1c-.4-.8-1.2-1.3-2.1-1.3-1.8 0-3.3 1.7-3.3 3.9 0 1.6 1 2.7 2.4 2.7 1.1 0 2-.6 2.6-1.5l1.5 1.1c-1 1.6-2.5 2.8-4.5 2.8z"/>
+  </svg>
+);
+
 interface ProcessStep {
   number: string;
   title: string;
@@ -85,10 +103,11 @@ const WORKFLOW_STEPS: ProcessStep[] = [
   {
     number: "01",
     title: "Research & Synthesis",
-    description: "Talk to users, analyze data to find real problems. Then use AI to surface patterns and insights at scale.",
+    description: "Talk to users, analyze data to find real problems. Then use AI and Linux shell tools to surface patterns and insights at scale.",
     icon: Search,
     toolLogos: [
-      { name: "AWS", icon: AwsLogo },
+      { name: "Linux", icon: LinuxLogo },
+      { name: "Docker", icon: DockerLogo },
       { name: "Python", icon: PythonLogo },
       { name: "GitHub", icon: GithubLogo },
     ],
@@ -99,17 +118,20 @@ const WORKFLOW_STEPS: ProcessStep[] = [
     description: "Align business and user needs. Design scalable cloud infrastructure, multi-tier architectures, and decide what to build first and why.",
     icon: ListChecks,
     toolLogos: [
-      { name: "Kubernetes", icon: KubernetesLogo },
+      { name: "Linux", icon: LinuxLogo },
       { name: "Docker", icon: DockerLogo },
+      { name: "Kubernetes", icon: KubernetesLogo },
       { name: "AWS", icon: AwsLogo },
     ],
   },
   {
     number: "03",
     title: "Design & Prototype",
-    description: "Design end-to-end flows, then build a functional prototype in code – not just Figma – to validate ideas fast.",
+    description: "Design end-to-end flows in Figma & Canva, then build functional mobile and web prototypes in Flutter & React to validate ideas fast.",
     icon: Code2,
     toolLogos: [
+      { name: "Figma", icon: FigmaLogo },
+      { name: "Canva", icon: CanvaLogo },
       { name: "Flutter", icon: FlutterLogo },
       { name: "React", icon: ReactLogo },
       { name: "Firebase", icon: FirebaseLogo },
@@ -118,12 +140,13 @@ const WORKFLOW_STEPS: ProcessStep[] = [
   {
     number: "04",
     title: "Test & Iterate",
-    description: "Iterate with real users and stakeholders. Refine CI/CD deployment pipelines until the solution is bulletproof.",
+    description: "Iterate with real users and stakeholders. Refine Docker & Flutter CI/CD deployment pipelines until the solution is bulletproof.",
     icon: CheckCircle2,
     toolLogos: [
+      { name: "Linux", icon: LinuxLogo },
       { name: "Docker", icon: DockerLogo },
+      { name: "Flutter", icon: FlutterLogo },
       { name: "GitHub", icon: GithubLogo },
-      { name: "Python", icon: PythonLogo },
     ],
   },
   {
@@ -132,10 +155,11 @@ const WORKFLOW_STEPS: ProcessStep[] = [
     description: "Dev collab or own the build. Then track adoption, system health, task completion, and performance metrics to close the loop.",
     icon: BarChart3,
     toolLogos: [
+      { name: "Linux", icon: LinuxLogo },
+      { name: "Docker", icon: DockerLogo },
       { name: "Kubernetes", icon: KubernetesLogo },
       { name: "AWS", icon: AwsLogo },
-      { name: "Github", icon: GithubLogo },
-      { name: "React", icon: ReactLogo },
+      { name: "Flutter", icon: FlutterLogo },
     ],
   },
 ];

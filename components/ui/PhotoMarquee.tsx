@@ -3,12 +3,12 @@
 import React from "react";
 
 const SHOWCASE_IMAGES = [
-  { url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80", title: "Linux Grafana Telemetry" },
-  { url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80", title: "AI Assistant Architecture" },
-  { url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80", title: "Flutter Health Analytics" },
-  { url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80", title: "Next.js Web Experience" },
-  { url: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80", title: "Cloud Taxi Platform" },
-  { url: "https://images.unsplash.com/photo-1614680376593-902f749f705b?auto=format&fit=crop&w=800&q=80", title: "Interactive Minesweeper Engine" },
+  { url: "/assets/showcase/telemetry.png", title: "Linux Grafana Telemetry" },
+  { url: "/assets/showcase/ai_assistant.png", title: "AI Assistant Architecture" },
+  { url: "/assets/showcase/flutter_health.png", title: "Flutter Health Analytics" },
+  { url: "/assets/showcase/nextjs_restaurant.png", title: "Next.js Web Experience" },
+  { url: "/assets/showcase/taxi_platform.png", title: "Cloud Taxi Platform" },
+  { url: "/assets/showcase/minesweeper.png", title: "Interactive Minesweeper Engine" },
 ];
 
 export const PhotoMarquee: React.FC = () => {

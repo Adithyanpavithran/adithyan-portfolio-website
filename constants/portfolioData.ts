@@ -137,7 +137,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     id: "exp-1",
     role: "DevOps Engineer",
     company: "Akumen",
-    period: "2023 - 2026",
+    period: "2026 - Present",
     location: "Kochi, India",
     type: "Full-time",
     responsibilities: [

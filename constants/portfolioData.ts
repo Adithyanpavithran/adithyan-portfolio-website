@@ -279,24 +279,7 @@ export const PROJECTS: Project[] = [
       "Secure Nginx reverse proxy with basic authentication"
     ]
   },
-  {
-    id: "minesweeper-game",
-    title: "Minesweeper Classic Web",
-    category: "Web Game",
-    description: "Interactive web-based implementation of the classic Minesweeper puzzle game.",
-    fullDescription: "A modern, responsive retro-inspired web game bringing the classic Minesweeper puzzle to the browser with modern glassmorphism UI, particle explosion effects, custom difficulty levels (Beginner, Intermediate, Expert), timer counters, and high score persistence.",
-    image: "https://images.unsplash.com/photo-1614680376593-902f749f705b?auto=format&fit=crop&w=1200&q=80",
-    stack: ["HTML5", "CSS3", "JavaScript", "Canvas API", "Local Storage"],
-    githubUrl: "https://github.com/adithyan-pavithran/minesweeper-classic-web",
-    liveUrl: "https://minesweeper-classic-web.vercel.app",
-    featured: true,
-    highlights: [
-      "Custom recursive zero-cell reveal algorithm for classic gameplay feel",
-      "Interactive flag counter, face reactions, and sound effects",
-      "Local Storage leaderboard tracking best solve times",
-      "Fully responsive grid scaling for desktop mouse and mobile touch controls"
-    ]
-  }
+
 ];
 
 export const SERVICES: ServiceItem[] = [

@@ -8,7 +8,6 @@ const SHOWCASE_IMAGES = [
   { url: "/assets/showcase/flutter_health.png", title: "Flutter Health Analytics" },
   { url: "/assets/showcase/nextjs_restaurant.png", title: "Next.js Web Experience" },
   { url: "/assets/showcase/taxi_platform.png", title: "Cloud Taxi Platform" },
-  { url: "/assets/showcase/minesweeper.png", title: "Interactive Minesweeper Engine" },
 ];
 
 export const PhotoMarquee: React.FC = () => {

@@ -151,14 +151,14 @@ const WORKFLOW_STEPS: ProcessStep[] = [
   {
     number: "03",
     title: "Design & Prototype",
-    description: "Design end-to-end flows in Figma & Canva, then build functional mobile and web prototypes in Flutter & React to validate ideas fast.",
+    description: "Design end-to-end flows and build functional mobile and web prototypes using React, Flutter, Python, Docker, and Google Cloud to validate ideas fast.",
     icon: Code2,
     toolLogos: [
-      { name: "Figma", icon: FigmaLogo },
-      { name: "Canva", icon: CanvaLogo },
-      { name: "Flutter", icon: FlutterLogo },
       { name: "React", icon: ReactLogo },
-      { name: "Firebase", icon: FirebaseLogo },
+      { name: "Flutter", icon: FlutterLogo },
+      { name: "Python", icon: PythonLogo },
+      { name: "Docker", icon: DockerLogo },
+      { name: "Google Cloud", icon: GcpLogo },
     ],
   },
   {

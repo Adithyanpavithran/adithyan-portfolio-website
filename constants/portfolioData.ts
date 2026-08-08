@@ -73,7 +73,6 @@ export const STATS = [
   { label: "Projects Completed", value: 15, suffix: "+" },
   { label: "Years Experience", value: 3, suffix: "+" },
   { label: "Technologies Mastered", value: 25, suffix: "+" },
-  { label: "Happy Clients", value: 12, suffix: "+" },
   { label: "Repositories Built", value: 35, suffix: "+" },
 ];
 

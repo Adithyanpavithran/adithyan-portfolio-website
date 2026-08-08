@@ -34,7 +34,7 @@ export const About: React.FC = () => {
                 <img
                   src="/assets/profile.jpg"
                   alt="Adithyan Pavithran"
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-80" />
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl glass-panel border border-white/10">

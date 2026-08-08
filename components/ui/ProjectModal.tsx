@@ -30,7 +30,10 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-6 overflow-y-auto bg-black/80 backdrop-blur-xl">
+      <div 
+        data-lenis-prevent
+        className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8 overflow-y-auto bg-black/85 backdrop-blur-xl"
+      >
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -40,11 +43,12 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
         />
 
         <motion.div
+          data-lenis-prevent
           initial={{ opacity: 0, scale: 0.9, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.9, y: 20 }}
           transition={{ type: "spring", damping: 25, stiffness: 300 }}
-          className="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-y-auto glass-panel border border-white/10 rounded-3xl p-6 md:p-8 bg-[#0F0F0F]/95 shadow-2xl"
+          className="relative z-10 w-full max-w-4xl max-h-[85vh] my-auto overflow-y-auto glass-panel border border-white/15 rounded-3xl p-6 md:p-8 bg-[#0F0F12] shadow-2xl"
         >
           {/* Close button */}
           <button
@@ -120,7 +124,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             )}
 
             {/* CTA Buttons */}
-            <div className="pt-4 border-t border-white/10 flex flex-wrap items-center gap-4">
+            <div className="pt-4 pb-4 border-t border-white/10 flex flex-wrap items-center gap-4">
               <a
                 href={project.liveUrl}
                 target="_blank"

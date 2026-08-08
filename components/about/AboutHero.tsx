@@ -164,14 +164,10 @@ export const AboutHero: React.FC = () => {
           {/* Subtle Ambient Aura */}
           <div className="absolute w-[360px] h-[400px] bg-white/[0.02] blur-3xl rounded-full pointer-events-none -z-10" />
 
-          {/* Main Photo Card Frame */}
-          <div className="relative w-[340px] md:w-[385px] bg-[#121216]/95 p-4 md:p-5 rounded-3xl border border-white/15 shadow-[0_30px_70px_rgba(0,0,0,0.85)] backdrop-blur-2xl transition-transform duration-500 hover:rotate-0 group">
-            
-            {/* Top Metallic Clip Detail */}
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-3 bg-gradient-to-r from-slate-400 via-slate-200 to-slate-400 rounded-sm border border-slate-500/60 shadow-md z-30" />
-
+          {/* Main Photo Card */}
+          <div className="relative w-[340px] md:w-[385px] transition-transform duration-500 hover:rotate-0 group">
             {/* Photo Container */}
-            <div className="relative w-full h-[340px] md:h-[390px] rounded-2xl overflow-hidden bg-[#0a0a0c] border border-white/10 shadow-inner">
+            <div className="relative w-full h-[360px] md:h-[420px] rounded-3xl overflow-hidden bg-[#0a0a0c] border border-white/10 shadow-2xl">
               <AnimatePresence mode="wait">
                 {photoMode === "real" ? (
                   <motion.img
@@ -182,7 +178,7 @@ export const AboutHero: React.FC = () => {
                     transition={{ duration: 0.4 }}
                     src="/assets/profile_real.jpg"
                     alt="Adithyan Pavithran"
-                    className="w-full h-full object-cover object-top filter grayscale contrast-105 group-hover:scale-102 transition-transform duration-700"
+                    className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-700"
                   />
                 ) : (
                   <motion.img

@@ -29,20 +29,18 @@ export const About: React.FC = () => {
             transition={{ duration: 0.7 }}
             className="lg:col-span-5 relative"
           >
-            <GlassCard glowColor="blue" className="p-3">
-              <div className="relative aspect-square w-full rounded-2xl overflow-hidden border border-white/10 group">
-                <img
-                  src="/assets/profile.jpg"
-                  alt="Adithyan Pavithran"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-80" />
-                <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl glass-panel border border-white/10">
-                  <h3 className="text-xl font-bold text-white">{PERSONAL_INFO.name}</h3>
-                  <p className="text-xs font-mono text-[#4F8CFF]">{PERSONAL_INFO.headline}</p>
-                </div>
+            <div className="relative aspect-square w-full rounded-3xl overflow-hidden border border-white/10 group shadow-2xl">
+              <img
+                src="/assets/profile.jpg"
+                alt="Adithyan Pavithran"
+                className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/80 via-transparent to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl glass-panel border border-white/10">
+                <h3 className="text-xl font-bold text-white">{PERSONAL_INFO.name}</h3>
+                <p className="text-xs font-mono text-[#4F8CFF]">{PERSONAL_INFO.headline}</p>
               </div>
-            </GlassCard>
+            </div>
           </motion.div>
 
           {/* Right Column Bio Description */}

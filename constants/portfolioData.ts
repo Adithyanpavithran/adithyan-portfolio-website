@@ -176,7 +176,7 @@ export const PROJECTS: Project[] = [
     category: "AI & Mobile",
     description: "AI-powered navigation platform combining intelligent route planning, real-time guidance, and voice interaction.",
     fullDescription: "Navi AI is an AI-powered navigation application that combines intelligent route planning, real-time guidance, and voice-assisted interactions to deliver a smarter, intuitive navigation experience. Built with Flutter and Firebase, it integrates Google Maps API and AI capabilities (Gemini/OpenAI) for contextual recommendations.",
-    image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1200&q=80",
+    image: "/assets/projects/navi_ai.png",
     stack: ["Flutter", "Dart", "Firebase", "Google Maps API", "AI APIs", "REST APIs"],
     githubUrl: "https://github.com/adithyan-pavithran/navi-ai-navigation",
     liveUrl: "https://navi-ai-navigation.vercel.app",

@@ -164,13 +164,13 @@ const WORKFLOW_STEPS: ProcessStep[] = [
   {
     number: "04",
     title: "Test & Iterate",
-    description: "Iterate with real users and stakeholders. Refine Docker & Flutter CI/CD deployment pipelines until the solution is bulletproof.",
+    description: "Iterate with real users and stakeholders. Refine GitHub Actions, Docker, Linux, and Python automated testing pipelines until bulletproof.",
     icon: CheckCircle2,
     toolLogos: [
-      { name: "Linux", icon: LinuxLogo },
-      { name: "Docker", icon: DockerLogo },
-      { name: "Flutter", icon: FlutterLogo },
       { name: "GitHub", icon: GithubLogo },
+      { name: "Docker", icon: DockerLogo },
+      { name: "Linux", icon: LinuxLogo },
+      { name: "Python", icon: PythonLogo },
     ],
   },
   {

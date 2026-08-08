@@ -242,24 +242,7 @@ export const PROJECTS: Project[] = [
       "Custom dark/light mode with fluid Framer-like micro-animations"
     ]
   },
-  {
-    id: "restaurant-website",
-    title: "Modern Restaurant Platform",
-    category: "Web Development",
-    description: "Responsive restaurant web application featuring dynamic food menus and ordering flow.",
-    fullDescription: "An ultra-fast, modern web application built with Next.js and Tailwind CSS for high-end dining experiences. Features interactive food menu filtering, dynamic table reservation booking system, cart state management, and cinematic visuals.",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
-    stack: ["Next.js", "Tailwind CSS", "React 19", "Framer Motion", "TypeScript"],
-    githubUrl: "https://github.com/adithyan-pavithran/uk-restaurant-platform",
-    liveUrl: "https://uk-restaurant-platform.vercel.app",
-    featured: true,
-    highlights: [
-      "100/100 Lighthouse performance score with static generation & image optimization",
-      "Interactive digital menu with category filtering and instant search",
-      "Table reservation modal with real-time slot availability check",
-      "Sleek glassmorphism visual layout with custom micro-interactions"
-    ]
-  },
+
   {
     id: "taxi-booking",
     title: "Taxi Booking Platform",

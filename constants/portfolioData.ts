@@ -118,10 +118,26 @@ export const SKILLS: Skill[] = [
 
 export const EXPERIENCES: ExperienceItem[] = [
   {
+    id: "exp-3",
+    role: "Customer Support Executive",
+    company: "BCABS",
+    period: "2026 - Present",
+    location: "Cochin, India",
+    type: "Full-time",
+    responsibilities: [
+      "Managed client communication, inbound user inquiries, and troubleshooting requests.",
+      "Resolved complex software issues, system logging, and client ticket escalation workflows.",
+      "Maintained CRM databases and client records to ensure maximum service uptime.",
+      "Conducted issue tracking, regression reporting, and post-resolution client follow-ups.",
+      "Achieved 98%+ client satisfaction rating across sustained support performance metrics."
+    ],
+    technologies: ["CRM Tools", "Customer Relations", "Issue Tracking", "Communication", "Documentation"]
+  },
+  {
     id: "exp-1",
     role: "DevOps Engineer",
     company: "Akumen",
-    period: "2023 - Present",
+    period: "2023 - 2026",
     location: "Kochi, India",
     type: "Full-time",
     responsibilities: [
@@ -150,22 +166,6 @@ export const EXPERIENCES: ExperienceItem[] = [
       "Provided tier-2 technical customer support and rapid issue resolution for production apps."
     ],
     technologies: ["Flutter", "Dart", "Firebase", "REST APIs", "State Management", "Git"]
-  },
-  {
-    id: "exp-3",
-    role: "Customer Support Executive",
-    company: "BCABS",
-    period: "2021 - 2022",
-    location: "Calicut, India",
-    type: "Full-time",
-    responsibilities: [
-      "Managed client communication, inbound user inquiries, and troubleshooting requests.",
-      "Resolved complex software issues, system logging, and client ticket escalation workflows.",
-      "Maintained CRM databases and client records to ensure maximum service uptime.",
-      "Conducted issue tracking, regression reporting, and post-resolution client follow-ups.",
-      "Achieved 98%+ client satisfaction rating across sustained support performance metrics."
-    ],
-    technologies: ["CRM Tools", "Customer Relations", "Issue Tracking", "Communication", "Documentation"]
   }
 ];
 

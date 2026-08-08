@@ -97,6 +97,24 @@ const CanvaLogo = () => (
   </svg>
 );
 
+const JiraLogo = () => (
+  <svg className="w-5 h-5 text-[#0052CC]" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M11.53 2c0 2.4-1.97 4.35-4.4 4.35H2.82C1.26 6.35 0 7.6 0 9.17v.03c0 1.56 1.26 2.82 2.82 2.82h4.31c2.43 0 4.4 1.95 4.4 4.35v.03c0 2.4-1.97 4.35-4.4 4.35H2.82A2.82 2.82 0 0 1 0 17.93v-3.56c0-.44.36-.8.8-.8h6.33c.96 0 1.74-.78 1.74-1.74v-.03c0-.96-.78-1.74-1.74-1.74H.8a.8.8 0 0 1-.8-.8V5.7c0-.44.36-.8.8-.8h6.33c.96 0 1.74-.78 1.74-1.74V2.36c0-.2.16-.36.36-.36h2.3c.2 0 .36.16.36.36v.03zM24 12.36c0 2.4-1.97 4.35-4.4 4.35h-4.31c-1.56 0-2.82 1.26-2.82 2.82v.03c0 1.56 1.26 2.82 2.82 2.82h4.31c2.43 0 4.4-1.95 4.4-4.35v-.03c0-2.4-1.97-4.35-4.4-4.35h-4.31a2.82 2.82 0 0 1-2.82-2.82v-3.56c0-.44.36-.8.8-.8h6.33c.96 0 1.74.78 1.74 1.74v.03c0 .96-.78 1.74-1.74 1.74h-6.33a.8.8 0 0 1-.8-.8v-3.56c0-.44.36-.8.8-.8h6.33c.96 0 1.74.78 1.74 1.74v.8c0 .2.16.36.36.36h2.3c.2 0 .36-.16.36-.36v-.03z"/>
+  </svg>
+);
+
+const DrawIoLogo = () => (
+  <svg className="w-5 h-5 text-[#F08705]" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.3l6.5 3.25L12 10.8 5.5 7.55 12 4.3zM4 9.1l7 3.5v7.1l-7-3.5V9.1zm16 7.1l-7 3.5v-7.1l7-3.5v7.1z"/>
+  </svg>
+);
+
+const GcpLogo = () => (
+  <svg className="w-5 h-5 text-[#4285F4]" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/>
+  </svg>
+);
+
 interface ProcessStep {
   number: string;
   title: string;
@@ -124,10 +142,10 @@ const WORKFLOW_STEPS: ProcessStep[] = [
     description: "Align business and user needs. Design scalable cloud infrastructure, multi-tier architectures, and decide what to build first and why.",
     icon: ListChecks,
     toolLogos: [
-      { name: "Linux", icon: LinuxLogo },
-      { name: "Docker", icon: DockerLogo },
-      { name: "Kubernetes", icon: KubernetesLogo },
-      { name: "AWS", icon: AwsLogo },
+      { name: "Jira (Project Planning)", icon: JiraLogo },
+      { name: "Draw.io (System Architecture)", icon: DrawIoLogo },
+      { name: "Docker (Container Architecture)", icon: DockerLogo },
+      { name: "Google Cloud Platform (Cloud Infrastructure)", icon: GcpLogo },
     ],
   },
   {
